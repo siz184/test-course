@@ -4,6 +4,8 @@
   "description": "Test Course",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/siz184/test-course/issues"
   },
-  "homepage": "https://github.com/siz184/test-course#readme"
+  "homepage": "https://github.com/siz184/test-course#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "webpack": "^2.3.2"
+  }
 }
